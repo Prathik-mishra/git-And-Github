@@ -1,0 +1,50 @@
+what is git? 
+git is a VCS (version control system) where developers can contribute together etc..,
+
+what is github?
+it is like a google drive where we save our codes and can share with other people to have a look at it.
+
+//steps:
+
+
+
+we can write git commands in any terminal 
+* git --version;
+
+to check the current version of git in our system.
+
+* git init
+
+initialises a empty git repository in current folder location example c/user/path/....
+
+* git status 
+
+it tells us about what is the status of the file that have be changed.
+we can use this command as many times as we want because it just return the files status
+
+* git add .
+
+it add all the files in the repository.
+after doing this all the files will appear green when we check the git status.
+
+* git commit -m
+
+we can also write it as git commit -m "A COMMIT MESSAGE"
+
+* git log
+
+shows the history of commits we have performed 
+
+* git checkout -> commit id <-
+
+* git checkout main 
+
+* git remote add origin -> repo link <-
+
+* git push origin main
+
+to push the code on the github repo 
+
+* git pull origin main 
+to get the code from the github repo
+ 
